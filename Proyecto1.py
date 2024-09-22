@@ -24,7 +24,6 @@ opciones_respuestas = [["A.Constante", "B.Variable", "C.Dato", "D.Función"],
 ["A.print()", "B.string()", "C.find()", "D.insert()"], 
 ["A.pop()", "B.random()", "C.index()", "D.get()"]]
 puntaje = 0
-
 def checar_resp(resp_jugador, respuesta_correcta):
     if resp_jugador == respuesta_correcta:
         return True
