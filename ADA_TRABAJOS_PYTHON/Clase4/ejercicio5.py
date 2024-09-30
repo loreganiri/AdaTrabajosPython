@@ -1,0 +1,5 @@
+matriculas = (101, 102, 103, 104, 105)
+matrepetida = matriculas.count(102)
+print("La matricula repetida aparece", matrepetida ,"veces")
+position = matriculas.index(104)
+print("La posicion de la matricula 104 es :", position)

@@ -1,0 +1,5 @@
+mi_tupla = (5, 10, 15, 20, 25)
+x = mi_tupla.count(10)
+print(f"El numero 10 se repite {x} veces")
+y=mi_tupla.index(20)
+print(f"El numero 20 se encuentra en la posicion {y}")
